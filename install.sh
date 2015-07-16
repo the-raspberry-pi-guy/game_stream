@@ -1,5 +1,7 @@
 echo "The installation wizard will now install everything required for this tutorial!"
 echo "This will take a long time... Why don't you go and get a cuppa?!"
+sleep 5
+echo "And it begins!"
 
 sudo apt-get update
 wget http://www.cmake.org/files/v3.3/cmake-3.3.0-rc2.tar.gz
