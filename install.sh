@@ -31,5 +31,6 @@ sudo cmake ../
 sudo make
 sudo make install
 cd ~
+sudo rm cmake-3.3.0-rc2.tar.gz libevdev2_1.4.3+dfsg-1_armhf.deb libevdev-dev_1.4.3+dfsg-1_armhf.deb libevdev-tools_1.4.3+dfsg-1_armhf.deb
 
 echo "*Tentative* And... We should be all done now!"
