@@ -18,7 +18,9 @@ sudo dpkg -i libevdev*
 cd
 
 git clone https://github.com/the-raspberry-pi-guy/game_stream
-cd game_stream/Moonlight
+cd game_stream
+sudo rm -r Dependencies
+cd Moonlight
 tar xf moonlight-embedded-2.0.2.tar.xz -C /home/pi/game_stream/
 cd ..
 sudo rm -r Moonlight
