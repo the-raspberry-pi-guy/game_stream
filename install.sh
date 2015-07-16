@@ -11,9 +11,9 @@ sudo make install
 cd ..
 
 sudo apt-get -y install libopus-dev libexpat1-dev libssl-dev libasound2-dev libudev-dev libavahi-client-dev libcurl4-openssl-dev libjs-jquery
-wget http://archive.raspbian.org/raspbian/pool/main/libe/libevdev/libevdev-dev_1.4.2%2bdfsg-1_armhf.deb
-wget http://archive.raspbian.org/raspbian/pool/main/libe/libevdev/libevdev-tools_1.4.2%2bdfsg-1_armhf.deb
-wget http://archive.raspbian.org/raspbian/pool/main/libe/libevdev/libevdev2_1.4.2%2bdfsg-1_armhf.deb
+wget https://github.com/the-raspberry-pi-guy/game_stream/raw/master/Dependencies/libevdev-dev_1.4.3%2Bdfsg-1_armhf.deb
+wget https://github.com/the-raspberry-pi-guy/game_stream/raw/master/Dependencies/libevdev-tools_1.4.3%2Bdfsg-1_armhf.deb
+wget https://github.com/the-raspberry-pi-guy/game_stream/raw/master/Dependencies/libevdev2_1.4.3%2Bdfsg-1_armhf.deb
 sudo dpkg -i libevdev*
 cd
 
