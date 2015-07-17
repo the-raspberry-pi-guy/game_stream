@@ -1,5 +1,5 @@
 echo "The installation wizard will now install everything required for this tutorial!"
-echo "This will take a long time... Why don't you go and get a cuppa?!"
+echo "This will take a long time (Around an hour and a quarter!)... Why don't you go and get a cuppa?!"
 sleep 5
 echo "And it begins!"
 
