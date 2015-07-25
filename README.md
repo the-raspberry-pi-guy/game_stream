@@ -1,5 +1,5 @@
 # game_stream
-This repository contains all of the code and installation files for Moonlight - a piece of software that allows you to stream fully-fledged PC games to a Raspberry Pi using Nvidia's Geforce Experience. To accompany my YouTube channel and tutorial here:
+This repository contains all of the code and installation files for Moonlight - a piece of software that allows you to stream fully-fledged PC games to a Raspberry Pi using Nvidia's Geforce Experience. To accompany my YouTube channel and tutorial here: http://youtu.be/P5izHiLW3Jg
 
 According to Moonlight Embedded's creators "Moonlight is an open source implementation of NVIDIA's GameStream, as used by the NVIDIA Shield, but built for Linux/OSX/Windows.
 
