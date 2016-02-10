@@ -22,11 +22,12 @@ cd
 git clone https://github.com/the-raspberry-pi-guy/game_stream
 cd game_stream
 sudo rm -r Dependencies
+#Included two versions of moonlight - the latest and also the old one that worked when I made this tutorial - should install fine however!
 cd Moonlight
-tar xf moonlight-embedded-2.0.2.tar.xz -C /home/pi/game_stream/
+tar xf moonlight-embedded-2.1.2.tar.xz -C /home/pi/game_stream/
 cd ..
 sudo rm -r Moonlight
-cd moonlight-embedded-2.0.2/
+cd moonlight-embedded-2.1.2/
 mkdir build
 cd build/
 sudo cmake ../
